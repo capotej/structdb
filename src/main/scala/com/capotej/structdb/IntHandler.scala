@@ -17,7 +17,8 @@ object IntHandler extends FinatraApp("/int") {
  
   post("/:name") {
     var value: Int = 1
-    
+    println("POST RECVD")
+
     if(!params("value").isEmpty)
       value = augmentString(params("value")).toInt
 
