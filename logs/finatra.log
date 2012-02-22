@@ -134,3 +134,19 @@ INFO  [2012-02-22 05:22:04,519] com.posterous.finatra.Router: recvd request: POS
 INFO  [2012-02-22 05:22:04,524] com.posterous.finatra.Router: returning response com.twitter.finagle.http.Response$$anon$1@d5e92d7
 INFO  [2012-02-22 05:22:05,809] com.posterous.finatra.Router: recvd request: GET /int/lasd Map(User-Agent -> curl/7.21.4 (universal-apple-darwin11.0) libcurl/7.21.4 OpenSSL/0.9.8r zlib/1.2.5, Host -> localhost:7070, Accept -> */*)
 INFO  [2012-02-22 05:22:05,810] com.posterous.finatra.Router: returning response com.twitter.finagle.http.Response$$anon$1@26132ae7
+INFO  [2012-02-22 05:38:17,797] com.posterous.finatra.FinatraServer: starting server
+INFO  [2012-02-22 05:38:17,799] com.posterous.finatra.FinatraServer: reading configuration
+INFO  [2012-02-22 05:38:18,099] com.posterous.finatra.FinatraServer: server started on 7070
+INFO  [2012-02-22 05:38:37,560] com.posterous.finatra.Router: recvd request: GET /dict/mydict Map(User-Agent -> curl/7.21.4 (universal-apple-darwin11.0) libcurl/7.21.4 OpenSSL/0.9.8r zlib/1.2.5, Host -> localhost:7070, Accept -> */*)
+INFO  [2012-02-22 05:38:37,597] com.posterous.finatra.Router: returning response com.twitter.finagle.http.Response$$anon$1@604bfe6b
+INFO  [2012-02-22 05:38:58,066] com.posterous.finatra.Router: recvd request: POST /dict/mydict?key=foo&value=bar Map(User-Agent -> curl/7.21.4 (universal-apple-darwin11.0) libcurl/7.21.4 OpenSSL/0.9.8r zlib/1.2.5, Host -> localhost:7070, Accept -> */*)
+INFO  [2012-02-22 05:38:58,084] com.posterous.finatra.Router: returning response com.twitter.finagle.http.Response$$anon$1@47db9852
+INFO  [2012-02-22 05:41:42,243] com.posterous.finatra.FinatraServer: starting server
+INFO  [2012-02-22 05:41:42,246] com.posterous.finatra.FinatraServer: reading configuration
+INFO  [2012-02-22 05:41:42,469] com.posterous.finatra.FinatraServer: server started on 7070
+INFO  [2012-02-22 05:41:45,289] com.posterous.finatra.Router: recvd request: GET /dict/mydict Map(User-Agent -> curl/7.21.4 (universal-apple-darwin11.0) libcurl/7.21.4 OpenSSL/0.9.8r zlib/1.2.5, Host -> localhost:7070, Accept -> */*)
+INFO  [2012-02-22 05:41:45,331] com.posterous.finatra.Router: returning response com.twitter.finagle.http.Response$$anon$1@34bf1d3b
+INFO  [2012-02-22 05:41:56,343] com.posterous.finatra.Router: recvd request: POST /dict/mydict?key=foo&value=bar Map(User-Agent -> curl/7.21.4 (universal-apple-darwin11.0) libcurl/7.21.4 OpenSSL/0.9.8r zlib/1.2.5, Host -> localhost:7070, Accept -> */*)
+INFO  [2012-02-22 05:41:56,357] com.posterous.finatra.Router: returning response com.twitter.finagle.http.Response$$anon$1@6a510e39
+INFO  [2012-02-22 05:42:02,435] com.posterous.finatra.Router: recvd request: GET /dict/mydict?key=foo Map(User-Agent -> curl/7.21.4 (universal-apple-darwin11.0) libcurl/7.21.4 OpenSSL/0.9.8r zlib/1.2.5, Host -> localhost:7070, Accept -> */*)
+INFO  [2012-02-22 05:42:02,436] com.posterous.finatra.Router: returning response com.twitter.finagle.http.Response$$anon$1@4c650892
