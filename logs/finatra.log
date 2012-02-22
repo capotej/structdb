@@ -1,0 +1,136 @@
+INFO  [2012-02-22 04:35:45,278] com.posterous.finatra.FinatraServer: starting server
+INFO  [2012-02-22 04:35:45,280] com.posterous.finatra.FinatraServer: reading configuration
+INFO  [2012-02-22 04:36:10,396] com.posterous.finatra.FinatraServer: starting server
+INFO  [2012-02-22 04:36:10,398] com.posterous.finatra.FinatraServer: reading configuration
+INFO  [2012-02-22 04:36:10,633] com.posterous.finatra.FinatraServer: server started on 7070
+INFO  [2012-02-22 04:36:16,881] com.posterous.finatra.Router: recvd request: GET / Map(Host -> localhost:7070, Connection -> keep-alive, User-Agent -> Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_3) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.56 Safari/535.11, Accept -> text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8, Accept-Encoding -> gzip,deflate,sdch, Accept-Language -> en-US,en;q=0.8, Accept-Charset -> ISO-8859-1,utf-8;q=0.7,*;q=0.3)
+INFO  [2012-02-22 04:36:16,902] com.posterous.finatra.Router: returning response com.twitter.finagle.http.Response$$anon$1@3b926e90
+INFO  [2012-02-22 04:36:36,508] com.posterous.finatra.Router: recvd request: GET /int/lol Map(Host -> localhost:7070, User-Agent -> Rested 2.1 (Macintosh; Mac OS X 10.7.3; en_US), Accept-Encoding -> gzip, Connection -> keep-alive)
+INFO  [2012-02-22 04:36:36,530] com.posterous.finatra.Router: returning response com.twitter.finagle.http.Response$$anon$1@203e1bc8
+INFO  [2012-02-22 04:37:04,497] com.posterous.finatra.Router: recvd request: GET /int/asdd Map(Host -> localhost:7070, User-Agent -> Rested 2.1 (Macintosh; Mac OS X 10.7.3; en_US), Accept-Encoding -> gzip, Connection -> keep-alive)
+INFO  [2012-02-22 04:37:04,498] com.posterous.finatra.Router: returning response com.twitter.finagle.http.Response$$anon$1@4d91f801
+INFO  [2012-02-22 04:37:11,135] com.posterous.finatra.Router: recvd request: GET /int/asd Map(User-Agent -> curl/7.21.4 (universal-apple-darwin11.0) libcurl/7.21.4 OpenSSL/0.9.8r zlib/1.2.5, Host -> localhost:7070, Accept -> */*)
+INFO  [2012-02-22 04:37:11,135] com.posterous.finatra.Router: returning response com.twitter.finagle.http.Response$$anon$1@3cecb67f
+INFO  [2012-02-22 04:38:08,064] com.posterous.finatra.FinatraServer: starting server
+INFO  [2012-02-22 04:38:08,066] com.posterous.finatra.FinatraServer: reading configuration
+INFO  [2012-02-22 04:38:08,311] com.posterous.finatra.FinatraServer: server started on 7070
+INFO  [2012-02-22 04:38:11,241] com.posterous.finatra.Router: recvd request: GET / Map(Host -> localhost:7070, Connection -> keep-alive, User-Agent -> Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_3) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.56 Safari/535.11, Accept -> text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8, Accept-Encoding -> gzip,deflate,sdch, Accept-Language -> en-US,en;q=0.8, Accept-Charset -> ISO-8859-1,utf-8;q=0.7,*;q=0.3)
+INFO  [2012-02-22 04:38:11,264] com.posterous.finatra.Router: returning response com.twitter.finagle.http.Response$$anon$1@2918958e
+INFO  [2012-02-22 04:38:11,617] com.posterous.finatra.Router: recvd request: GET /favicon.ico Map(Host -> localhost:7070, Connection -> keep-alive, Accept -> */*, User-Agent -> Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_3) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.56 Safari/535.11, Accept-Encoding -> gzip,deflate,sdch, Accept-Language -> en-US,en;q=0.8, Accept-Charset -> ISO-8859-1,utf-8;q=0.7,*;q=0.3)
+INFO  [2012-02-22 04:38:11,618] com.posterous.finatra.Router: returning response com.twitter.finagle.http.Response$$anon$1@6639c8c1
+INFO  [2012-02-22 04:38:15,681] com.posterous.finatra.Router: recvd request: GET /int/asd Map(User-Agent -> curl/7.21.4 (universal-apple-darwin11.0) libcurl/7.21.4 OpenSSL/0.9.8r zlib/1.2.5, Host -> localhost:7070, Accept -> */*)
+INFO  [2012-02-22 04:38:15,709] com.posterous.finatra.Router: returning response com.twitter.finagle.http.Response$$anon$1@604bfe6b
+INFO  [2012-02-22 04:38:22,078] com.posterous.finatra.Router: recvd request: POST /int/asd Map(User-Agent -> curl/7.21.4 (universal-apple-darwin11.0) libcurl/7.21.4 OpenSSL/0.9.8r zlib/1.2.5, Host -> localhost:7070, Accept -> */*)
+INFO  [2012-02-22 04:38:22,079] com.posterous.finatra.Router: returning response com.twitter.finagle.http.Response$$anon$1@a3468f4
+INFO  [2012-02-22 04:38:47,486] com.posterous.finatra.Router: recvd request: POST /int/asd Map(User-Agent -> curl/7.21.4 (universal-apple-darwin11.0) libcurl/7.21.4 OpenSSL/0.9.8r zlib/1.2.5, Host -> localhost:7070, Accept -> */*)
+INFO  [2012-02-22 04:38:47,487] com.posterous.finatra.Router: returning response com.twitter.finagle.http.Response$$anon$1@73aecc3a
+INFO  [2012-02-22 04:38:49,908] com.posterous.finatra.Router: recvd request: POST /int/aaaaaaaaaaa Map(User-Agent -> curl/7.21.4 (universal-apple-darwin11.0) libcurl/7.21.4 OpenSSL/0.9.8r zlib/1.2.5, Host -> localhost:7070, Accept -> */*)
+INFO  [2012-02-22 04:38:49,909] com.posterous.finatra.Router: returning response com.twitter.finagle.http.Response$$anon$1@6f57b46f
+INFO  [2012-02-22 04:38:53,535] com.posterous.finatra.Router: recvd request: GET /int/aaaaaaaaaaa Map(User-Agent -> curl/7.21.4 (universal-apple-darwin11.0) libcurl/7.21.4 OpenSSL/0.9.8r zlib/1.2.5, Host -> localhost:7070, Accept -> */*)
+INFO  [2012-02-22 04:38:53,536] com.posterous.finatra.Router: returning response com.twitter.finagle.http.Response$$anon$1@3d7dc1cb
+INFO  [2012-02-22 04:56:45,140] com.posterous.finatra.FinatraServer: starting server
+INFO  [2012-02-22 04:56:45,142] com.posterous.finatra.FinatraServer: reading configuration
+INFO  [2012-02-22 04:56:57,939] com.posterous.finatra.FinatraServer: starting server
+INFO  [2012-02-22 04:56:57,940] com.posterous.finatra.FinatraServer: reading configuration
+INFO  [2012-02-22 04:56:58,155] com.posterous.finatra.FinatraServer: server started on 7070
+INFO  [2012-02-22 04:57:02,852] com.posterous.finatra.Router: recvd request: GET /int/aaaaaaaaaaa Map(User-Agent -> curl/7.21.4 (universal-apple-darwin11.0) libcurl/7.21.4 OpenSSL/0.9.8r zlib/1.2.5, Host -> localhost:7070, Accept -> */*)
+INFO  [2012-02-22 04:57:02,899] com.posterous.finatra.Router: returning response com.twitter.finagle.http.Response$$anon$1@6f7cf6b6
+INFO  [2012-02-22 04:57:06,613] com.posterous.finatra.Router: recvd request: GET /int/asd Map(User-Agent -> curl/7.21.4 (universal-apple-darwin11.0) libcurl/7.21.4 OpenSSL/0.9.8r zlib/1.2.5, Host -> localhost:7070, Accept -> */*)
+INFO  [2012-02-22 04:57:06,613] com.posterous.finatra.Router: returning response com.twitter.finagle.http.Response$$anon$1@4c6504bc
+INFO  [2012-02-22 05:05:05,838] com.posterous.finatra.FinatraServer: starting server
+INFO  [2012-02-22 05:05:05,840] com.posterous.finatra.FinatraServer: reading configuration
+INFO  [2012-02-22 05:05:06,056] com.posterous.finatra.FinatraServer: server started on 7070
+INFO  [2012-02-22 05:05:12,111] com.posterous.finatra.Router: recvd request: GET /int/aaaaaaaaaaa Map(User-Agent -> curl/7.21.4 (universal-apple-darwin11.0) libcurl/7.21.4 OpenSSL/0.9.8r zlib/1.2.5, Host -> localhost:7070, Accept -> */*)
+INFO  [2012-02-22 05:05:12,159] com.posterous.finatra.Router: returning response com.twitter.finagle.http.Response$$anon$1@64a7c45e
+INFO  [2012-02-22 05:05:28,575] com.posterous.finatra.Router: recvd request: GET /int/lol Map(User-Agent -> curl/7.21.4 (universal-apple-darwin11.0) libcurl/7.21.4 OpenSSL/0.9.8r zlib/1.2.5, Host -> localhost:7070, Accept -> */*)
+INFO  [2012-02-22 05:05:28,576] com.posterous.finatra.Router: returning response com.twitter.finagle.http.Response$$anon$1@686963d0
+INFO  [2012-02-22 05:05:43,212] com.posterous.finatra.Router: recvd request: POST /int/lol?value=1 Map(User-Agent -> curl/7.21.4 (universal-apple-darwin11.0) libcurl/7.21.4 OpenSSL/0.9.8r zlib/1.2.5, Host -> localhost:7070, Accept -> */*)
+INFO  [2012-02-22 05:05:43,221] com.posterous.finatra.Router: returning response com.twitter.finagle.http.Response$$anon$1@d5e92d7
+INFO  [2012-02-22 05:05:46,062] com.posterous.finatra.Router: recvd request: GET /int/lol Map(User-Agent -> curl/7.21.4 (universal-apple-darwin11.0) libcurl/7.21.4 OpenSSL/0.9.8r zlib/1.2.5, Host -> localhost:7070, Accept -> */*)
+INFO  [2012-02-22 05:05:46,063] com.posterous.finatra.Router: returning response com.twitter.finagle.http.Response$$anon$1@26132ae7
+INFO  [2012-02-22 05:07:00,765] com.posterous.finatra.FinatraServer: starting server
+INFO  [2012-02-22 05:07:00,768] com.posterous.finatra.FinatraServer: reading configuration
+INFO  [2012-02-22 05:07:00,992] com.posterous.finatra.FinatraServer: server started on 7070
+INFO  [2012-02-22 05:08:29,366] com.posterous.finatra.Router: recvd request: GET /int/lol Map(User-Agent -> curl/7.21.4 (universal-apple-darwin11.0) libcurl/7.21.4 OpenSSL/0.9.8r zlib/1.2.5, Host -> localhost:7070, Accept -> */*)
+INFO  [2012-02-22 05:08:29,414] com.posterous.finatra.Router: returning response com.twitter.finagle.http.Response$$anon$1@1a7244ca
+INFO  [2012-02-22 05:08:34,604] com.posterous.finatra.Router: recvd request: POST /int/lol?value=1 Map(User-Agent -> curl/7.21.4 (universal-apple-darwin11.0) libcurl/7.21.4 OpenSSL/0.9.8r zlib/1.2.5, Host -> localhost:7070, Accept -> */*)
+INFO  [2012-02-22 05:08:34,618] com.posterous.finatra.Router: returning response com.twitter.finagle.http.Response$$anon$1@b0c0f66
+INFO  [2012-02-22 05:09:01,465] com.posterous.finatra.FinatraServer: starting server
+INFO  [2012-02-22 05:09:01,467] com.posterous.finatra.FinatraServer: reading configuration
+INFO  [2012-02-22 05:09:01,681] com.posterous.finatra.FinatraServer: server started on 7070
+INFO  [2012-02-22 05:09:04,987] com.posterous.finatra.Router: recvd request: POST /int/lol?value=1 Map(User-Agent -> curl/7.21.4 (universal-apple-darwin11.0) libcurl/7.21.4 OpenSSL/0.9.8r zlib/1.2.5, Host -> localhost:7070, Accept -> */*)
+INFO  [2012-02-22 05:09:05,044] com.posterous.finatra.Router: returning response com.twitter.finagle.http.Response$$anon$1@3175ade6
+INFO  [2012-02-22 05:09:08,421] com.posterous.finatra.Router: recvd request: GET /int/lol Map(User-Agent -> curl/7.21.4 (universal-apple-darwin11.0) libcurl/7.21.4 OpenSSL/0.9.8r zlib/1.2.5, Host -> localhost:7070, Accept -> */*)
+INFO  [2012-02-22 05:09:08,422] com.posterous.finatra.Router: returning response com.twitter.finagle.http.Response$$anon$1@44ed904
+INFO  [2012-02-22 05:17:18,346] com.posterous.finatra.FinatraServer: starting server
+INFO  [2012-02-22 05:17:18,348] com.posterous.finatra.FinatraServer: reading configuration
+INFO  [2012-02-22 05:17:18,574] com.posterous.finatra.FinatraServer: server started on 7070
+INFO  [2012-02-22 05:17:32,856] com.posterous.finatra.Router: recvd request: GET /int/lol Map(User-Agent -> curl/7.21.4 (universal-apple-darwin11.0) libcurl/7.21.4 OpenSSL/0.9.8r zlib/1.2.5, Host -> localhost:7070, Accept -> */*)
+INFO  [2012-02-22 05:17:32,905] com.posterous.finatra.Router: returning response com.twitter.finagle.http.Response$$anon$1@d6089a5
+INFO  [2012-02-22 05:17:38,815] com.posterous.finatra.Router: recvd request: POST /int/lol Map(User-Agent -> curl/7.21.4 (universal-apple-darwin11.0) libcurl/7.21.4 OpenSSL/0.9.8r zlib/1.2.5, Host -> localhost:7070, Accept -> */*)
+INFO  [2012-02-22 05:17:38,818] com.posterous.finatra.Router: returning response com.twitter.finagle.http.Response$$anon$1@75d252d
+INFO  [2012-02-22 05:17:40,699] com.posterous.finatra.Router: recvd request: GET /int/lol Map(User-Agent -> curl/7.21.4 (universal-apple-darwin11.0) libcurl/7.21.4 OpenSSL/0.9.8r zlib/1.2.5, Host -> localhost:7070, Accept -> */*)
+INFO  [2012-02-22 05:17:40,699] com.posterous.finatra.Router: returning response com.twitter.finagle.http.Response$$anon$1@29700391
+INFO  [2012-02-22 05:18:22,993] com.posterous.finatra.FinatraServer: starting server
+INFO  [2012-02-22 05:18:22,996] com.posterous.finatra.FinatraServer: reading configuration
+INFO  [2012-02-22 05:18:23,219] com.posterous.finatra.FinatraServer: server started on 7070
+INFO  [2012-02-22 05:18:25,830] com.posterous.finatra.Router: recvd request: GET /int/lol Map(User-Agent -> curl/7.21.4 (universal-apple-darwin11.0) libcurl/7.21.4 OpenSSL/0.9.8r zlib/1.2.5, Host -> localhost:7070, Accept -> */*)
+INFO  [2012-02-22 05:18:25,872] com.posterous.finatra.Router: returning response com.twitter.finagle.http.Response$$anon$1@58b51c29
+INFO  [2012-02-22 05:18:28,391] com.posterous.finatra.Router: recvd request: POST /int/lol Map(User-Agent -> curl/7.21.4 (universal-apple-darwin11.0) libcurl/7.21.4 OpenSSL/0.9.8r zlib/1.2.5, Host -> localhost:7070, Accept -> */*)
+INFO  [2012-02-22 05:18:28,393] com.posterous.finatra.Router: returning response com.twitter.finagle.http.Response$$anon$1@c569c60
+INFO  [2012-02-22 05:18:32,266] com.posterous.finatra.Router: recvd request: GET /int/lol Map(User-Agent -> curl/7.21.4 (universal-apple-darwin11.0) libcurl/7.21.4 OpenSSL/0.9.8r zlib/1.2.5, Host -> localhost:7070, Accept -> */*)
+INFO  [2012-02-22 05:18:32,267] com.posterous.finatra.Router: returning response com.twitter.finagle.http.Response$$anon$1@4245c97b
+INFO  [2012-02-22 05:18:33,394] com.posterous.finatra.Router: recvd request: GET /int/lol Map(User-Agent -> curl/7.21.4 (universal-apple-darwin11.0) libcurl/7.21.4 OpenSSL/0.9.8r zlib/1.2.5, Host -> localhost:7070, Accept -> */*)
+INFO  [2012-02-22 05:18:33,395] com.posterous.finatra.Router: returning response com.twitter.finagle.http.Response$$anon$1@75295fe8
+INFO  [2012-02-22 05:18:35,560] com.posterous.finatra.Router: recvd request: POST /int/lol Map(User-Agent -> curl/7.21.4 (universal-apple-darwin11.0) libcurl/7.21.4 OpenSSL/0.9.8r zlib/1.2.5, Host -> localhost:7070, Accept -> */*)
+INFO  [2012-02-22 05:18:35,560] com.posterous.finatra.Router: returning response com.twitter.finagle.http.Response$$anon$1@2326a29c
+INFO  [2012-02-22 05:18:36,359] com.posterous.finatra.Router: recvd request: POST /int/lol Map(User-Agent -> curl/7.21.4 (universal-apple-darwin11.0) libcurl/7.21.4 OpenSSL/0.9.8r zlib/1.2.5, Host -> localhost:7070, Accept -> */*)
+INFO  [2012-02-22 05:18:36,360] com.posterous.finatra.Router: returning response com.twitter.finagle.http.Response$$anon$1@32602b6b
+INFO  [2012-02-22 05:18:36,609] com.posterous.finatra.Router: recvd request: POST /int/lol Map(User-Agent -> curl/7.21.4 (universal-apple-darwin11.0) libcurl/7.21.4 OpenSSL/0.9.8r zlib/1.2.5, Host -> localhost:7070, Accept -> */*)
+INFO  [2012-02-22 05:18:36,610] com.posterous.finatra.Router: returning response com.twitter.finagle.http.Response$$anon$1@36afae4a
+INFO  [2012-02-22 05:18:36,850] com.posterous.finatra.Router: recvd request: POST /int/lol Map(User-Agent -> curl/7.21.4 (universal-apple-darwin11.0) libcurl/7.21.4 OpenSSL/0.9.8r zlib/1.2.5, Host -> localhost:7070, Accept -> */*)
+INFO  [2012-02-22 05:18:36,851] com.posterous.finatra.Router: returning response com.twitter.finagle.http.Response$$anon$1@120540c
+INFO  [2012-02-22 05:18:37,109] com.posterous.finatra.Router: recvd request: POST /int/lol Map(User-Agent -> curl/7.21.4 (universal-apple-darwin11.0) libcurl/7.21.4 OpenSSL/0.9.8r zlib/1.2.5, Host -> localhost:7070, Accept -> */*)
+INFO  [2012-02-22 05:18:37,110] com.posterous.finatra.Router: returning response com.twitter.finagle.http.Response$$anon$1@628f9a32
+INFO  [2012-02-22 05:18:37,383] com.posterous.finatra.Router: recvd request: POST /int/lol Map(User-Agent -> curl/7.21.4 (universal-apple-darwin11.0) libcurl/7.21.4 OpenSSL/0.9.8r zlib/1.2.5, Host -> localhost:7070, Accept -> */*)
+INFO  [2012-02-22 05:18:37,384] com.posterous.finatra.Router: returning response com.twitter.finagle.http.Response$$anon$1@44ed904
+INFO  [2012-02-22 05:18:37,607] com.posterous.finatra.Router: recvd request: POST /int/lol Map(User-Agent -> curl/7.21.4 (universal-apple-darwin11.0) libcurl/7.21.4 OpenSSL/0.9.8r zlib/1.2.5, Host -> localhost:7070, Accept -> */*)
+INFO  [2012-02-22 05:18:37,608] com.posterous.finatra.Router: returning response com.twitter.finagle.http.Response$$anon$1@4baa2c23
+INFO  [2012-02-22 05:18:38,506] com.posterous.finatra.Router: recvd request: GET /int/lol Map(User-Agent -> curl/7.21.4 (universal-apple-darwin11.0) libcurl/7.21.4 OpenSSL/0.9.8r zlib/1.2.5, Host -> localhost:7070, Accept -> */*)
+INFO  [2012-02-22 05:18:38,507] com.posterous.finatra.Router: returning response com.twitter.finagle.http.Response$$anon$1@6e4eeaaf
+INFO  [2012-02-22 05:18:42,315] com.posterous.finatra.Router: recvd request: GET /int/lasd Map(User-Agent -> curl/7.21.4 (universal-apple-darwin11.0) libcurl/7.21.4 OpenSSL/0.9.8r zlib/1.2.5, Host -> localhost:7070, Accept -> */*)
+INFO  [2012-02-22 05:18:42,315] com.posterous.finatra.Router: returning response com.twitter.finagle.http.Response$$anon$1@d5e92d7
+INFO  [2012-02-22 05:18:49,696] com.posterous.finatra.Router: recvd request: POST /int/lasd Map(User-Agent -> curl/7.21.4 (universal-apple-darwin11.0) libcurl/7.21.4 OpenSSL/0.9.8r zlib/1.2.5, Host -> localhost:7070, Accept -> */*)
+INFO  [2012-02-22 05:18:49,697] com.posterous.finatra.Router: returning response com.twitter.finagle.http.Response$$anon$1@26132ae7
+INFO  [2012-02-22 05:18:50,638] com.posterous.finatra.Router: recvd request: POST /int/lasd Map(User-Agent -> curl/7.21.4 (universal-apple-darwin11.0) libcurl/7.21.4 OpenSSL/0.9.8r zlib/1.2.5, Host -> localhost:7070, Accept -> */*)
+INFO  [2012-02-22 05:18:50,639] com.posterous.finatra.Router: returning response com.twitter.finagle.http.Response$$anon$1@445e228
+INFO  [2012-02-22 05:18:50,897] com.posterous.finatra.Router: recvd request: POST /int/lasd Map(User-Agent -> curl/7.21.4 (universal-apple-darwin11.0) libcurl/7.21.4 OpenSSL/0.9.8r zlib/1.2.5, Host -> localhost:7070, Accept -> */*)
+INFO  [2012-02-22 05:18:50,898] com.posterous.finatra.Router: returning response com.twitter.finagle.http.Response$$anon$1@396477d9
+INFO  [2012-02-22 05:18:51,110] com.posterous.finatra.Router: recvd request: POST /int/lasd Map(User-Agent -> curl/7.21.4 (universal-apple-darwin11.0) libcurl/7.21.4 OpenSSL/0.9.8r zlib/1.2.5, Host -> localhost:7070, Accept -> */*)
+INFO  [2012-02-22 05:18:51,111] com.posterous.finatra.Router: returning response com.twitter.finagle.http.Response$$anon$1@172fb0af
+INFO  [2012-02-22 05:20:09,315] com.posterous.finatra.FinatraServer: starting server
+INFO  [2012-02-22 05:20:09,317] com.posterous.finatra.FinatraServer: reading configuration
+INFO  [2012-02-22 05:20:09,544] com.posterous.finatra.FinatraServer: server started on 7070
+INFO  [2012-02-22 05:20:27,528] com.posterous.finatra.FinatraServer: starting server
+INFO  [2012-02-22 05:20:27,530] com.posterous.finatra.FinatraServer: reading configuration
+INFO  [2012-02-22 05:20:27,743] com.posterous.finatra.FinatraServer: server started on 7070
+INFO  [2012-02-22 05:21:28,181] com.posterous.finatra.FinatraServer: starting server
+INFO  [2012-02-22 05:21:28,183] com.posterous.finatra.FinatraServer: reading configuration
+INFO  [2012-02-22 05:21:28,414] com.posterous.finatra.FinatraServer: server started on 7070
+INFO  [2012-02-22 05:21:49,458] com.posterous.finatra.FinatraServer: starting server
+INFO  [2012-02-22 05:21:49,461] com.posterous.finatra.FinatraServer: reading configuration
+INFO  [2012-02-22 05:21:49,674] com.posterous.finatra.FinatraServer: server started on 7070
+INFO  [2012-02-22 05:21:55,471] com.posterous.finatra.Router: recvd request: POST /int/lasd Map(User-Agent -> curl/7.21.4 (universal-apple-darwin11.0) libcurl/7.21.4 OpenSSL/0.9.8r zlib/1.2.5, Host -> localhost:7070, Accept -> */*)
+INFO  [2012-02-22 05:21:55,518] com.posterous.finatra.Router: returning response com.twitter.finagle.http.Response$$anon$1@191410e5
+INFO  [2012-02-22 05:21:57,146] com.posterous.finatra.Router: recvd request: POST /int/lasd Map(User-Agent -> curl/7.21.4 (universal-apple-darwin11.0) libcurl/7.21.4 OpenSSL/0.9.8r zlib/1.2.5, Host -> localhost:7070, Accept -> */*)
+INFO  [2012-02-22 05:21:57,147] com.posterous.finatra.Router: returning response com.twitter.finagle.http.Response$$anon$1@583e97df
+INFO  [2012-02-22 05:21:57,606] com.posterous.finatra.Router: recvd request: POST /int/lasd Map(User-Agent -> curl/7.21.4 (universal-apple-darwin11.0) libcurl/7.21.4 OpenSSL/0.9.8r zlib/1.2.5, Host -> localhost:7070, Accept -> */*)
+INFO  [2012-02-22 05:21:57,607] com.posterous.finatra.Router: returning response com.twitter.finagle.http.Response$$anon$1@343a9d95
+INFO  [2012-02-22 05:21:57,876] com.posterous.finatra.Router: recvd request: POST /int/lasd Map(User-Agent -> curl/7.21.4 (universal-apple-darwin11.0) libcurl/7.21.4 OpenSSL/0.9.8r zlib/1.2.5, Host -> localhost:7070, Accept -> */*)
+INFO  [2012-02-22 05:21:57,877] com.posterous.finatra.Router: returning response com.twitter.finagle.http.Response$$anon$1@7433b121
+INFO  [2012-02-22 05:22:00,345] com.posterous.finatra.Router: recvd request: GET /int/lasd Map(User-Agent -> curl/7.21.4 (universal-apple-darwin11.0) libcurl/7.21.4 OpenSSL/0.9.8r zlib/1.2.5, Host -> localhost:7070, Accept -> */*)
+INFO  [2012-02-22 05:22:00,346] com.posterous.finatra.Router: returning response com.twitter.finagle.http.Response$$anon$1@78fa39d7
+INFO  [2012-02-22 05:22:04,519] com.posterous.finatra.Router: recvd request: POST /int/lasd?value=10 Map(User-Agent -> curl/7.21.4 (universal-apple-darwin11.0) libcurl/7.21.4 OpenSSL/0.9.8r zlib/1.2.5, Host -> localhost:7070, Accept -> */*)
+INFO  [2012-02-22 05:22:04,524] com.posterous.finatra.Router: returning response com.twitter.finagle.http.Response$$anon$1@d5e92d7
+INFO  [2012-02-22 05:22:05,809] com.posterous.finatra.Router: recvd request: GET /int/lasd Map(User-Agent -> curl/7.21.4 (universal-apple-darwin11.0) libcurl/7.21.4 OpenSSL/0.9.8r zlib/1.2.5, Host -> localhost:7070, Accept -> */*)
+INFO  [2012-02-22 05:22:05,810] com.posterous.finatra.Router: returning response com.twitter.finagle.http.Response$$anon$1@26132ae7
